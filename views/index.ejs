@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <p>welcome<%=data.name%></p>
+        
+        <p>contact:<%=data.contact%></p>
+        
+        <p>Email:<%=data.email%></p>
+        <p>
+            skills:<%data.skills.forEach((item)=>{%>
+                <li><%=item %</li>
+                <%})%></p>
+    </body>
+    </html>
