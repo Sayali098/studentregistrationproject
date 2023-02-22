@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+    
+    /*margin: auto;
+    padding: 2px;
+    //margin: 4px;
+    
+    text-align: center;*/
+.form{
+
+height: 100vh;
+width: 100%;
+border: 1px solid black;
+background-color:pink;
+font-size: 20px;
+}
+label{
+    float: left;
+    clear: left;
+    width: 100px;
+    
+    text-align: right;
+    margin-right: 15px;
+    line-height: normal;
+
+}
+button{
+
+    margin-left: 100px;
+
+}
+.form .stud{
+   
+    display: flex;
+    justify-content: center;
+}
+ 
